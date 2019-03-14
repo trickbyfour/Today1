@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--设置控件为圆角，弧度为20dp-->
+    <corners android:radius="20dp" />
+    <!--设置控件内填充颜色-->
+    <solid android:color="@color/color_black_40" />
+    <!--内部字体与控件的边距-->
+    <padding
+        android:bottom="5dp"
+        android:top="5dp"
+        android:left="25dp"
+        android:right="25dp" />
+    <!--设置控件的边框线-->
+    <stroke
+        android:width="1dp"
+        android:color="@color/color_FFFFFF" />
+
+</shape>
